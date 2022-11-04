@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button,
+body, input {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #1c472711;
+    color: #1c4727ad;
+    font-size: 26px;
+}
+
+section h2 {
+    font-size: 96px;
+}
+
+section h3 {
+    font-size: 32px;
+}
+
+section h4 {
+    font-size: 24px;
+}
+
+section h5 {
+    font-size: 18px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 8px;
+    font-size: 26px;
+}
+
+header nav li a {
+    color: #1c4727bd;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recipe-list img {
+    height: 40px;
+}
+
+.recipe-list li {
+    display: inline;
+    margin-right: 200px;
+}
+
+section .container {
+    align-items: inline;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #1c4727bd;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.image {
+    margin-right: 32px;
+}
+
+.recipe-list img {
+    height: 48px;
+}
+.recipe-list li {
+    display: inline;
+    margin-right: 16px;
+}
+
+#request .container {
+    display: block;
+}
+
+.request-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #1c4727bd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+form button:hover {
+    background-color: #1c472785;
+}
+
+input:focus {
+    outline-color: #1c4727bd;
+}
+
+footer {
+    background-color: #1c472736;
+    color: #1c4727bd;
+    padding: 16px 0;
+}
